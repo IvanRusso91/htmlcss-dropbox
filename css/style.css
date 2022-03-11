@@ -1,0 +1,24 @@
+/* HEADER */
+
+/* Lista menu */
+
+nav ul li {
+  display: inline-block;
+  padding: 25px 30px 0 25px;
+  font-size: 20px;
+}
+
+nav li:hover{
+  padding-bottom: 20px;
+  border-bottom: 5px solid black;
+}
+
+.btn-small{
+  color: white;
+  background-color: rgb(0, 97, 255);
+}
+
+.text-right li:last-child{
+  padding-bottom: none;
+  border-bottom: none;
+}
