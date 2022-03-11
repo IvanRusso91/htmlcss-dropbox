@@ -1,0 +1,20 @@
+
+.container{
+  width: 90%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.text-center{
+  text-align: center;
+}
