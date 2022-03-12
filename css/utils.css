@@ -1,5 +1,6 @@
 
 .container{
+  width: 70%;
   max-width: 1500px;
   margin: 0 auto;
 }
@@ -28,9 +29,16 @@
 
 .btn{
   padding: 10px 15px;
+  transition: 1.5s;
 }
 
-
+.btn-tondo{
+  display: inline-block;;
+  margin-right: 10px;
+  width: 20px;
+  height:20px;
+  border-radius: 50%;
+}
 
 
 
@@ -112,6 +120,10 @@
 
 .w50{
   width: 50%;
+}
+
+.w55{
+  width: 55%;
 }
 
 .w60{
