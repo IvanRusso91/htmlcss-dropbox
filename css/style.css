@@ -45,22 +45,33 @@ nav li:hover{
   font-size: 5rem;
   padding-top: 100px;
   text-align: left;
-  padding-left: 185px;
+  padding-left: 90px;
 }
 
 .jumbotron p{
   font-size: 1.3rem;
-  padding-left: 185px;
+  padding-left: 90px;
   padding-top: 50px;
 }
 
-.jumbo-img{
-  transform: scale(0.6);
-  margin-left: -250px;
-  margin-top: -165px;
+.jumbo-img img{
+  width: 100%;
 }
+
+.jumbo-img{
+  margin-top: 50px;
+  margin-bottom: -100px;
+}
+
+.arrow i{
+  margin-bottom: 50px;
+  margin-left:90px;
+  margin-top: 50px;
+  font-size: 80px;
+}
+
 .btn-space{
-  margin-left: 185px;
+  margin-left: 90px;
   margin-top: 50px;
 }
 .btn-space a:hover{
@@ -80,6 +91,7 @@ nav li:hover{
 
 .box h2{
   font-size: 3rem;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
