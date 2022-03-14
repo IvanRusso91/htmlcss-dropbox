@@ -2,13 +2,13 @@
 
 /* Lista menu */
 
-nav ul li {
+.w50 nav ul li {
   display: inline-block;
   padding: 25px 25px 0 25px;
   font-size: 18px;
 }
 
-nav li:hover{
+.w50 nav li:hover{
   padding-bottom: 20px;
   border-bottom: 5px solid black;
 }
@@ -18,16 +18,18 @@ nav li:hover{
   background-color: rgb(0, 97, 255);
 }
 
-.btn-small:hover{
+.btn-small:hover, .btn-big:hover{
   color: rgb(3, 3, 3);
-}
-
-.text-right a:hover{
-  background-color: white;
   border: 1px solid black;
+  background-color: white;
+  
 }
 
-.text-right li:last-child{
+.w50 .text-right a:hover{
+  background-color: white;
+}
+
+div.text-right li:last-child{
   padding-bottom: none;
   border-bottom: none;
 }
@@ -74,7 +76,7 @@ nav li:hover{
   margin-left: 90px;
   margin-top: 50px;
 }
-.btn-space a:hover{
+.btn-space a:hover, .btn-prova a:hover{
   background-color: white;
   border: 1px solid black;
 }
@@ -83,7 +85,12 @@ nav li:hover{
 
 /* MAIN */
 
-/* Colonna centrale */
+/* Capitello */
+
+
+h4{
+  padding: 10px;
+}
 
 .box-btn{
   margin-bottom: 50px;
@@ -105,4 +112,106 @@ div.btn-tondo span{
 
 .btn-no-bordo{
   border: 1px solid black;
+}
+/* /Capitello */
+
+/* 3 colonne */
+
+div.col{
+  border: 1px solid rgb(99, 115, 129);
+  margin-bottom: 50px;
+}
+
+div.col-centro{
+  margin: 0 3%;
+}
+
+p.mese{
+  color: rgb(99, 115, 129);
+}
+
+.box-section li{
+  padding: 15px;
+}
+
+.box-section{
+  margin-top:40px;
+
+}
+
+.box-info h3{
+  font-size: 2rem;
+}
+
+div.box-section .btn-prova{
+  padding-left: 15px;
+}
+
+div.box-section .btn-prova p{
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+div.box-check i{
+  color: rgb(33, 117, 255);
+}
+a.acquista{
+  color: rgb(33, 117, 255);
+  text-decoration: underline;
+}
+
+a.acquista:hover{
+  border: none;
+}
+
+.riga{
+  margin: 30px 15px;
+}
+
+div.col-left .box-check li:last-child{
+  padding-bottom: 215px;
+}
+
+div.col-centro .box-check li:last-child{
+  padding-bottom: 168px;
+}
+
+div.col-right .box-check li:last-child{
+  padding-bottom: 168px;
+}
+
+/* /3 Colonne */
+
+.col-base{
+  border: 1px solid rgb(99, 115, 129);
+}
+
+.ent-left, .ent-right{
+  padding: 40px;
+}
+
+.ent-left{
+  width: 65%;
+}
+
+.ent-right{
+  width: 35%;
+  margin-left: 0%;
+}
+
+.btn-big{
+  padding: 10px 50px;
+  transition: 1.5s;
+  color: white;
+  background-color: rgb(0, 97, 255);
+}
+
+.ent-left h3{
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.ent-left p:first-of-type{
+  font-size: 1.2rem;
+  margin-bottom: 30px;
 }
