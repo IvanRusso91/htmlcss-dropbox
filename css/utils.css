@@ -36,15 +36,16 @@
 }
 
 .btn-tondo{
-  display: inline-block;;
+  display: inline-block;
   margin-right: 10px;
   width: 20px;
   height:20px;
   border-radius: 50%;
 }
 
-
-
+.col-calc{
+  width: calc( 100% / 3 - 30px);
+}
 
 
 
