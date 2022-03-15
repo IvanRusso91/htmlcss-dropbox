@@ -80,6 +80,10 @@
   min-height: 200px;
 }
 
+.h250{
+  min-height: 250px;
+}
+
 .h300{
   min-height: 300px;
 }
@@ -100,7 +104,9 @@
 }
 
 
-
+.w5{
+  width: 5%;
+}
 
 .w20{
   width: 20%;
@@ -132,4 +138,8 @@
 
 .w90{
   width: 90%;
+}
+
+.w95{
+  width: 95%;
 }
