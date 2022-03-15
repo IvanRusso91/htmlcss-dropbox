@@ -22,7 +22,7 @@
 .btn-small:hover, .btn-big:hover{
   color: rgb(3, 3, 3);
   border: 1px solid black;
-  background-color: white;
+  opacity: 0.7;;
   
 }
 
@@ -78,7 +78,7 @@ div.text-right li:last-child{
   margin-top: 50px;
 }
 .btn-space a:hover, .btn-prova a:hover{
-  background-color: white;
+  opacity: 0.7;
   border: 1px solid black;
 }
 
@@ -128,12 +128,11 @@ p.mese{
 }
 
 .box-section li{
-  padding: 15px;
+  padding: 15px; 
 }
 
 .box-section{
   margin-top:40px;
-
 }
 
 .box-info h3{
@@ -317,9 +316,13 @@ div.box-sponsor:hover{
   border: 10px solid rgba(230,232,235,0.8); 
 }
 
+div.box-sponsor{
+  height: 50%;
+}
+
 div.text-sponsor{
   background-color: rgb(245, 245, 245);
-  overflow: auto;  
+  overflow: auto; 
 }
 
 div.text-sponsor img{
@@ -387,17 +390,16 @@ div.base-p-left h2{
   color: rgb(97, 8, 43) ;
   font-size:2.5rem;
   padding-top: 105px;
-  padding-left: 125px;
 }
 
 div.base-p-right{
 margin-top: 120px;
-padding-left: 150PX; 
+padding-left: 300PX; 
 }
 
 .btn-base{
   transition: 1.5s;
-  padding: 10px 50px;
+  padding: 10px 30px;
   background-color: white;
 }
 
@@ -420,5 +422,64 @@ div.box-faq h2{
 
 .chevron{
   margin-top: 45px;
+  margin-right: 20px;
 } 
 /* /Faq */
+
+/* FOOTER */
+
+div.box-foot{
+  margin-top: 100px;
+  background-color: black;
+}
+
+div.col-cal-foot{
+  width: calc(100% / 5);
+}
+
+div.col-foot{
+  color:white;
+  font-weight: bold;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+div.col-foot li:first-child{
+  padding-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+div.col-cal-foot li:nth-child(1n + 2){
+  padding: 10px 0 10px 0;
+}
+
+div.col-cal-foot li:nth-child(1n + 2):hover{
+  text-decoration: underline;
+}
+
+div.foot{
+  background-color: black;
+}
+
+div.riga-foot{
+  width: 8%;
+  border: 1px solid rgb(153,153,153);
+  margin-left: 250px;  
+}
+
+div.lingua-foot{
+  padding: 30px;
+}
+
+div.lingua-foot a{
+  color: rgb(153,153,153); 
+}
+
+div.lingua-foot a:first-of-type{
+  margin-left: 220px;
+}
+
+div.lingua-foot a:last-of-type{
+  font-size: 0.7rem;
+}
+/* /FOOTER */
